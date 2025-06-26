@@ -108,6 +108,8 @@ def cancelar_reserva():
             reservas.remove(x)
             tiempo(0.5)
             print(f"La reserva de {nombre} ha sido cancelada.")
+        else:
+            print("Nombre no encontrado.")
 
 
 def val_nombre(mensaje):
